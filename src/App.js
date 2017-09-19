@@ -3,8 +3,8 @@ import AddTodo from './components/addTodo/';
 
 const App = () => (
   <div>
-    <h1>Todo</h1>
-    <AddTodo />
+    <h1>Todo list</h1>
+    <AddTodo submitTodo={() => {}} />
   </div>
 );
 
